@@ -1,12 +1,11 @@
 {
-  "extends": [
-    "apostrophe"
-  ],
+  "extends": ["apostrophe"],
   "globals": {
     "apos": true
   },
   "rules": {
     "no-var": "error",
     "no-console": 0
-  }
+  },
+  "space-in-parens": [1, "always"]
 }
